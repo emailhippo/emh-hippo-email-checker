@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy of 
 description: Our privacy policy
-permalink: /privacy/
+permalink: /privacy
 toc: true
 toc_sticky: true
 ---
