@@ -1,0 +1,100 @@
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+   - jekyll-mentions
+   - jemoji
+   - jekyll-redirect-from
+   - jekyll-sitemap
+   - jekyll-feed
+   - jekyll-seo-tag
+   - jekyll-include-cache
+minimal_mistakes_skin: "mint"
+search: true
+title: Hippo Email Checker
+title_separator: "|"
+name: "emailhippo.com"
+description: "The Hippo Email Checker."
+url: https://hippo-email-checker.com
+breadcrumbs: true
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
+
+include: ["_pages"]
+
+timezone: Etc/UTC
+
+footer:
+  links:
+    - label: "Main website"
+      icon: "fas fa-globe"
+      url: "https://www.emailhippo.com"
+    - label: "Twitter"
+      icon: "fab fa-twitter-square"
+      url: "https://twitter.com/Email_Hippo"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/company/email-hippo-ltd/"
+    - label: "Facebook"
+      icon: "fab fa-facebook-square"
+      url: "https://www.facebook.com/emailhippoworldwide/"
+
+analytics:
+  provider: "google-universal"
+  google:
+    tracking_id: "UA-65302523-9"
+    anonymize_ip: false # default
+
+google_site_verification: "o8hstF2Xb-uen3vflB5IWm11GJfD5d1lPAAENWh2kdE"
+
+twitter:
+  username: "Email_Hippo"
+
+social:
+  type: Organization
+  name: "Email Hippo Ltd"
+  links:
+    - "https://twitter.com/Email_Hippo"
+    - "https://www.linkedin.com/company/email-hippo-ltd/"
+    - "https://www.facebook.com/emailhippoworldwide/"
+
+author:
+  name: "Email Hippo"
+  avatar: "//d1wiejlotg3vr4.cloudfront.net/bizbranding/co.logos/ex-180x180.png"
+  bio: "Email Hippo provides email address verification and data cleansing solutions."
+  location: "Cornwall, United Kingdom"
+  links:
+    - label: "Main website"
+      icon: "fas fa-globe"
+      url: "https://www.emailhippo.com"
+    - label: "Twitter"
+      icon: "fab fa-twitter-square"
+      url: "https://twitter.com/Email_Hippo"
+    - label: "Linked In"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/company/email-hippo-ltd/"
+    - label: "Facebook"
+      icon: "fab fa-facebook-square"
+      url: "https://www.facebook.com/emailhippoworldwide/"
+    
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
